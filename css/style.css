@@ -132,3 +132,31 @@ img {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .container{
+        width: 100%;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 40px;
+    }
+
+    .steps .col{
+        width: 100%;
+    }
+
+    .col{
+        width: 100%;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+}
